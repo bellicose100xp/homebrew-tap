@@ -1,25 +1,25 @@
 class Jiq < Formula
   desc "Interactive JSON query tool with real-time output"
   homepage "https://github.com/bellicose100xp/jiq"
-  version "2.20.0"
+  version "2.20.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/bellicose100xp/jiq/releases/download/v2.20.0/jiq-aarch64-apple-darwin.tar.xz"
-      sha256 "5f67bc3cb3b0ceac649dd99af28fb4b5c7e1dcbffb56e9971ac3f5259352fb71"
+      url "https://github.com/bellicose100xp/jiq/releases/download/v2.20.1/jiq-aarch64-apple-darwin.tar.xz"
+      sha256 "c2f99ba509b6bbd8696f295190df92e218138cd780a37a6c1b67c362d4d20fbf"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bellicose100xp/jiq/releases/download/v2.20.0/jiq-x86_64-apple-darwin.tar.xz"
-      sha256 "7cf0f153e00b3444e1e46f9e99c3de515b7ce9333c36eabb9ff66f2702588068"
+      url "https://github.com/bellicose100xp/jiq/releases/download/v2.20.1/jiq-x86_64-apple-darwin.tar.xz"
+      sha256 "1868299644887c54fa69876045af983ba60bd29330cab9ffb91db64b73aa42c8"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/bellicose100xp/jiq/releases/download/v2.20.0/jiq-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "77180296ac3d0ef95bbd17fc73cc64dbad3a82eb6995c3564dfd5a16c392dc19"
+      url "https://github.com/bellicose100xp/jiq/releases/download/v2.20.1/jiq-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4373581a6a7d67d341bbc9d8bae6b17162604085d726b74a50d3b47db3be7303"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bellicose100xp/jiq/releases/download/v2.20.0/jiq-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "bfd117cd1c0b69ff05157f0ba755d9c13c8a2a0e7adc3b88b7d9449dca0125ad"
+      url "https://github.com/bellicose100xp/jiq/releases/download/v2.20.1/jiq-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "357380643aa85415866f5e04b104c990408463e09492b2b4e0b45e0334da6bba"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
